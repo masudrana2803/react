@@ -11,21 +11,35 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contacts from './pages/Contacts'
 import Services from './pages/Services'
+import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router'
+import { RouterProvider } from 'react-router/dom'
 
 
 
 
 
 const App = () => {
+
+  const myRoute = createBrowserRouter(createRoutesFromElements(
+    <Route>
+      <Route path='/LandingPage' element={<Banner/>}/>
+      <Route path='/Home' element={<Home/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Contacts' element={<Contacts/>}/>
+      <Route path='/Services' element={<Services/>}/>
+    </Route>
+  ))
+
   return (
     <>
-    <Navbar/>
+    <RouterProvider router={myRoute}/>
+    {/* <Navbar/>
     <Banner/>
     <Footer/>
     <Home/>
     <About/>
     <Contacts/>
-    <Services/>
+    <Services/> */}
 
     </>
     // <div className="bodyText">

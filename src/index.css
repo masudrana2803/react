@@ -11,6 +11,7 @@
     flex: 1;
     height: 80px;
     align-content: center;
+    padding: 20px;
 }
 
 
@@ -24,22 +25,6 @@
     border-radius: 25px;
 }
 
-.bannerDo{
-    background-color: aqua;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Homepage{
-    width: 100%;
-    height: fit-content;
-    color: blueviolet;
-    border-radius: 25px;
-    background-color: antiquewhite;
-    border-radius: 25px;
-}
 
 .footer-row{
     height: 200px;
@@ -56,9 +41,52 @@
     font-weight: 700;
 }
 
-.servicesPart{
-        width: 100%;
-    height: fit-content;
-    color: blueviolet;
-    border-radius: 25px;
+.bannerDo{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.Homepage{
+    background-color: gainsboro;
+    height: 300px;
+}
+
+    
+.aboutTxt{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt h2{
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.contact_lists{
+    background-color: antiquewhite;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.servicesPart{
+    background-color: thistle;
+    height: 300px;
+    font-weight: 700;
+    color:blue;
+}
+
+/* .servicesPart{
+        width: 100%;
+        height: fit-content;
+        color: blueviolet;
+        border-radius: 25px;
+    } */
