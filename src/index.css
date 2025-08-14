@@ -23,24 +23,30 @@
     font-weight: 700;
     border-radius: 25px;
 }
-.Bannerpart{
-    height: 200px;
+
+.bannerDo{
     background-color: aqua;
-    border-radius: 25px;
-    text-align: center;
-    align-content: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Homepage{
     width: 100%;
-    height: 200px;
+    height: fit-content;
     color: blueviolet;
-    border: 2px solid red;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+.footer-row{
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-row ul{
@@ -48,4 +54,11 @@
     justify-content: center;
     gap: 30px;
     font-weight: 700;
+}
+
+.servicesPart{
+        width: 100%;
+    height: fit-content;
+    color: blueviolet;
+    border-radius: 25px;
 }

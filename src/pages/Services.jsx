@@ -2,8 +2,8 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-      <h2>Services</h2>
+    <div className='servicesPart'>
+      <h2 class='text-center'>Services</h2>
       <p>Our services are:</p>
       <p>1. Lorem, ipsum.</p>
       <p>2. Lorem, ipsum dolor.</p>

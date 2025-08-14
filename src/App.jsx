@@ -4,15 +4,13 @@ import './App.css'
 
 
 import './App.css'
-import './components/Banner'
-import './pages/Home'
-import './pages/About'
-import './pages/Contacts'
-import './pages/Services'
-import './components/Footer'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contacts from './pages/Contacts'
+import Services from './pages/Services'
 
 
 
@@ -24,6 +22,11 @@ const App = () => {
     <Navbar/>
     <Banner/>
     <Footer/>
+    <Home/>
+    <About/>
+    <Contacts/>
+    <Services/>
+
     </>
     // <div className="bodyText">
     //   <h1>Hello</h1>
