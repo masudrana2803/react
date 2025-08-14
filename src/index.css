@@ -1,2 +1,51 @@
 @import "tailwindcss";
 
+
+
+/* ul{
+    display: flex;
+    gap: 20px;
+} */
+
+.navbarrow{
+    flex: 1;
+    height: 80px;
+    align-content: center;
+}
+
+
+.bodyText{
+    height: 120px;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
+    color: aqua;
+    font-weight: 700;
+    border-radius: 25px;
+}
+.Bannerpart{
+    height: 200px;
+    background-color: aqua;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+}
+
+.Homepage{
+    width: 100%;
+    height: 200px;
+    color: blueviolet;
+    border: 2px solid red;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.footer-row ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 700;
+}

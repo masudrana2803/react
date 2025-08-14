@@ -4,20 +4,31 @@ import './App.css'
 
 
 import './App.css'
-// import './components/Aboutme'
 import './components/Banner'
+import './pages/Home'
+import './pages/About'
+import './pages/Contacts'
+import './pages/Services'
 import './components/Footer'
 import Navbar from './components/Navbar'
-import './components/Aboutme'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
+
+
 
 
 
 const App = () => {
   return (
-    <div className="bodyText">
-      <h1>Hello</h1>
-      <h2>I am doing react</h2>
-    </div>
+    <>
+    <Navbar/>
+    <Banner/>
+    <Footer/>
+    </>
+    // <div className="bodyText">
+    //   <h1>Hello</h1>
+    //   <h2>I am doing react</h2>
+    // </div>
   )
 }
 

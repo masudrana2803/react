@@ -8,11 +8,11 @@ const Navbar = () => {
             <div className="logo-col">
                 <h2><img src="src/assets/react.svg" alt="Logo" /></h2>
                 <div className="navitems">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contacts</a></li>
-                        <li><a href="#">Services</a></li>
+                    <ul className='flex gap-6 text-red-500' >
+                        <li className='hover:text-black duration-100'><a href="#">Home</a></li>
+                        <li className='hover:text-black duration-100'><a href="#">About</a></li>
+                        <li className='hover:text-black duration-100'><a href="#">Contacts</a></li>
+                        <li className='hover:text-black duration-100'><a href="#">Services</a></li>
                     </ul>
                 </div>
             </div>
