@@ -1,0 +1,33 @@
+
+
+
+.navbarrow{
+background-color:rgb(224, 224, 241) ;
+}
+
+.logo-col{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    flex: 1;
+}
+
+
+.bodyText{
+    text-align: center;
+}
