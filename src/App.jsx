@@ -13,7 +13,7 @@ import Contacts from './pages/Contacts'
 import Services from './pages/Services'
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router'
 import { RouterProvider } from 'react-router/dom'
-
+import LayoutOne from './Layout/LayoutOne'
 
 
 
@@ -22,11 +22,22 @@ const App = () => {
 
   const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route>
-      <Route path='/' element={<Banner/>}/>
+      <Route path='/'element={<LayoutOne/>}>
+      <Route index element={<Banner/>}/>
       <Route path='/Home' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Contacts' element={<Contacts/>}/>
       <Route path='/Services' element={<Services/>}/>
+      </Route>
+
+
+
+
+      {/* <Route path='/' element={<Banner/>}/>
+      <Route path='/Home' element={<Home/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Contacts' element={<Contacts/>}/>
+      <Route path='/Services' element={<Services/>}/> */}
     </Route>
   ))
 

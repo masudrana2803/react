@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+// import Navbar from '../components/Navbar'
+// import Footer from '../components/Footer'
 
 
 const About = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <div className="aboutTxt">
         <div className="abt">
         <h2 class='text-blue-500 text-center'>Who are we</h2>
@@ -16,7 +16,7 @@ const About = () => {
       <p>I am Muhibullah Sarker Rahat <br /> My parents call me as Muhib, sometimes they call me as Rahat <br />But there is a madman who calls me as MUKIB</p>
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
