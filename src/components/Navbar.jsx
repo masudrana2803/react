@@ -6,14 +6,14 @@ const Navbar = () => {
       <nav>
         <div className="navbarrow">
             <div className="logo-col">
-              <h2><a href="LandingPage"><img src="src/assets/react.svg" alt="Logo" /></a></h2>
+              <h2><a href="./"><img src="src/assets/react.svg" alt="Logo" /></a></h2>
                 {/* <h2><img src="src/assets/react.svg" alt="Logo" /></h2> */}
                 <div className="navitems">
                     <ul className='flex gap-6 text-red-500' >
-                        <li className='hover:text-black duration-100'><a href="Home">Home</a></li>
-                        <li className='hover:text-black duration-100'><a href="About">About</a></li>
-                        <li className='hover:text-black duration-100'><a href="Contacts">Contacts</a></li>
-                        <li className='hover:text-black duration-100'><a href="Services">Services</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="Home">Home</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="About">About</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="Contacts">Contacts</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="Services">Services</a></li>
                     </ul>
                 </div>
             </div>

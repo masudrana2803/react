@@ -5,8 +5,8 @@ import './App.css'
 
 import './App.css'
 import Navbar from './components/Navbar'
-import Banner from './components/Banner'
 import Footer from './components/Footer'
+import Banner from './components/Banner'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contacts from './pages/Contacts'
@@ -22,7 +22,7 @@ const App = () => {
 
   const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route>
-      <Route path='/LandingPage' element={<Banner/>}/>
+      <Route path='/' element={<Banner/>}/>
       <Route path='/Home' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Contacts' element={<Contacts/>}/>
