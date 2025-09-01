@@ -15,6 +15,8 @@ import { createBrowserRouter, createRoutesFromElements, Route } from 'react-rout
 import { RouterProvider } from 'react-router/dom'
 import LayoutOne from './Layout/LayoutOne'
 import LayoutTwo from './Layout/LayoutTwo'
+import Products from './pages/Products'
+import Buttons from './pages/Buttons'
 
 
 
@@ -27,7 +29,9 @@ const App = () => {
       <Route index element={<Banner/>}/>
       <Route path='/Home' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
-      <Route path='/Products' element={<Home/>}/>
+      <Route path='/Products' element={<Products/>}/>
+      <Route path='/Buttons' element={<Buttons/>}/>
+      
       {/* <Route path='/Contacts' element={<Contacts/>}/>
       <Route path='/Services' element={<Services/>}/> */}
       </Route>

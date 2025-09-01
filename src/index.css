@@ -118,3 +118,15 @@ margin: 0;
 .setrow{
     display: flex;
 }
+
+.Products_row{
+    background-color: lightgrey;
+    height: 399px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonsVersion{
+    height: 399px;
+}
