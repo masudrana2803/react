@@ -13,7 +13,7 @@ const Sidenavbar = () => {
             <div className="Sidenavitems">
                     <ul>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Home">All Products</a></li>
-                        <li className='hover:text-black duration-100 hover:text-xl'><a href="About">Our Location</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="About">Location</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Contacts">Contact Us</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Services">FAQ</a></li>
                     </ul>
