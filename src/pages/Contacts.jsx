@@ -1,11 +1,11 @@
 import React from 'react'
-// import Navbar from '../components/Navbar'
-// import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Contacts = () => {
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
     <div className='contact_lists'>
       <div className="contact1">
       <h2 class='text-center'>Contacts</h2>

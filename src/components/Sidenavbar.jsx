@@ -5,10 +5,9 @@ const Sidenavbar = () => {
     <>
       <nav>
         <div className="Sidenavbar-row">
-            <div className="logo-col">
+            {/* <div className="logo-col">
               <h2><a href="./"><img src="src/assets/react.svg" alt="Logo" /></a></h2>
-                {/* <h2><img src="src/assets/react.svg" alt="Logo" /></h2> */}
-            </div>
+            </div> */}
             
             <div className="Sidenavitems">
                     <ul>

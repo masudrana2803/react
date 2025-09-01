@@ -27,7 +27,7 @@
 
 
 .footer-row{
-    height: 200px;
+    height: 115px;
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -51,13 +51,13 @@
 
 .Homepage{
     background-color: gainsboro;
-    height: 300px;
+    height: 399px;
 }
 
     
 .aboutTxt{
     background-color: aqua;
-    height: 300px;
+    height: 399px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
 
 .contact_lists{
     background-color: antiquewhite;
-    height:80vh;
+    height:66vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,7 +94,7 @@
 
 .Sidenavbar-row{
 width:flex;
-height:80vh;
+height: 472px;
 padding: 20px;
 background-color:burlywood;
 display: flex;

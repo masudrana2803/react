@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import Sidenavbar from '../components/Sidenavbar'
 import Footer from '../components/Footer'
 
+
 const LayoutTwo = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const LayoutTwo = () => {
 </div>
     </div>
 <Footer/>
+
     </>
   )
 }
