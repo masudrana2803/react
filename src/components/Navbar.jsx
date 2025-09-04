@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <div className="navbarrow">
+        <div className="navbarrow relative w-[100%]">
             <div className="logo-col">
               <h2><a href="./"><img src="src/assets/react.svg" alt="Logo" /></a></h2>
                 {/* <h2><img src="src/assets/react.svg" alt="Logo" /></h2> */}
