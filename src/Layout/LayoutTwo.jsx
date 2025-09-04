@@ -7,9 +7,9 @@ import Footer from '../components/Footer'
 const LayoutTwo = () => {
   return (
     <>
-    <div className="setrow">
+    <div className="setrow flex">
 <Sidenavbar/>
-<div className="flex-1/2">
+<div className="flex-1">
 <Outlet/>
 </div>
     </div>
