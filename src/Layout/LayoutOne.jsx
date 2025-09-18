@@ -8,8 +8,8 @@ const LayoutOne = () => {
   return (
     <>
     <Navbar/>
-          <Outlet/>
     <Footer/>
+          <Outlet/>
     </>
   )
 }

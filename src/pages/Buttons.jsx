@@ -18,7 +18,7 @@ const Buttons = () => {
 
 <h3>Button Version 1: <br />
 
-<ButtonV1 ContentV1="Click Me"/>
+<ButtonV1/>
 <ButtonV1 ContentV1="Submit"/>
 <ButtonV1 ContentV1="Add to Cart"/>
 <ButtonV1 ContentV1="Delete"/>
