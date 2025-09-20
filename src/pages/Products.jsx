@@ -1,3 +1,4 @@
+// src/pages/Products.jsx
 import React from 'react'
 
 

@@ -1,3 +1,4 @@
+// src/Layout/LayoutOne.jsx
 import React from 'react'
 import { Outlet } from 'react-router'
 import Navbar from '../components/Navbar'
@@ -8,8 +9,8 @@ const LayoutOne = () => {
   return (
     <>
     <Navbar/>
-    <Footer/>
           <Outlet/>
+    <Footer/>
     </>
   )
 }

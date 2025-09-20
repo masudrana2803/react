@@ -1,3 +1,4 @@
+// src/components/Sidenavbar.jsx
 import React from 'react'
 
 const Sidenavbar = () => {
@@ -16,6 +17,7 @@ const Sidenavbar = () => {
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Contacts">Contact Us</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Services">Request service</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Services">FAQ</a></li>
+                        <li></li>
 
                     </ul>
                 </div>

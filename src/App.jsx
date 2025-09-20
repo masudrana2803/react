@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from 'react'
 import './assets/react.svg'
 import './App.css'
@@ -17,6 +18,7 @@ import LayoutOne from './Layout/LayoutOne'
 import LayoutTwo from './Layout/LayoutTwo'
 import Products from './pages/Products'
 import Buttons from './pages/Buttons'
+import States from './pages/States'
 
 
 
@@ -32,6 +34,8 @@ const App = () => {
       <Route path='/Products' element={<Products/>}/>
 
       <Route path='/Buttons' element={<Buttons/>}/>
+      <Route path='/States' element={<States/>}/>
+
       
       {/* <Route path='/Contacts' element={<Contacts/>}/>
       <Route path='/Services' element={<Services/>}/> */}
@@ -49,6 +53,7 @@ const App = () => {
       <Route path='/Contacts' element={<Contacts/>}/>
       <Route path='/Services' element={<Services/>}/>
       <Route path='/Products' element={<Products/>}/>
+
       </Route>
 
     </Route>

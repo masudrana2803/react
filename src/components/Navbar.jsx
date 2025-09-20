@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import React from 'react'
 
 const Navbar = () => {
@@ -15,6 +16,8 @@ const Navbar = () => {
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Contacts">Contacts</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Services">Services</a></li>
                         <li className='hover:text-black duration-100 hover:text-xl'><a href="Buttons">Buttons</a></li>
+                        <li className='hover:text-black duration-100 hover:text-xl'><a href="States">Use State</a></li>
+                        
                     </ul>
                 </div>
             </div>

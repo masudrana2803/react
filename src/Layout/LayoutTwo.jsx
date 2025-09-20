@@ -1,3 +1,4 @@
+// src/Layout/LayoutTwo.jsx
 import React from 'react'
 import { Outlet } from 'react-router'
 import Sidenavbar from '../components/Sidenavbar'
