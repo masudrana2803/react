@@ -3,11 +3,32 @@ import React, { useState } from 'react'
 
 const States = () => {
 
+
+// Counter App using useState
       const [count,setCount]=useState(0)
-
-
       const increment =()=> setCount (count+1)
       const decrement =()=> setCount (count-1)
+
+// form handling using useState
+      const [email,setEmail]=useState('')
+      const [password,setPassword]=useState('')
+
+      const [submittedEmail,setSubmittedEmail]=useState('')
+      const [submittedPassword,setSubmittedPassword]=useState('')
+      const handelGo=(e)=>{
+
+        console.log("Email is:",email)
+        console.log("Password is:",password)
+        e.preventDefault();
+        
+        setSubmittedEmail(email);
+        setSubmittedPassword(password);
+
+        setEmail('');
+        setPassword('');
+      }
+
+
 
 
 
@@ -29,16 +50,21 @@ const States = () => {
       </div>
     </section>
     
-    <section id='Login Form' className='m-12'>
+    <section id='LoginForm' className='m-12'>
+      
       <h2>A common use case for useState is managing form inputs.</h2>
 
-      <input type="email" placeholder='Enter your email' />
-      <input type="password" placeholder='Enter your password' />
-      <button className=''>Submit</button>
+      <input type="email" value={email} placeholder='enter your email' onChange={(e)=>setEmail(e.target.value)} />
+      <input type="password" value={password} placeholder='your password' onChange={(e)=>setPassword(e.target.value)} />
+      <button onClick={handelGo}>GO</button>
+      <h2>Your email is:{submittedEmail} </h2>
+      <h2>Your password is:{submittedPassword} </h2>
 
 
     </section>
 
+
+    
 
     </>
   )

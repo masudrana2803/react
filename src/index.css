@@ -6,6 +6,9 @@
     display: flex;
     gap: 20px;
 } */
+/* @utility container {
+  margin-inline: auto;
+} */
 
 .navbarrow{
     flex: 1;
@@ -118,11 +121,11 @@ margin: 0;
 } */
 
 .Products_row{
-    background-color: lightgrey;
-    height: 399px;
+    background-color: rgb(243, 227, 227);
+    /* height: 399px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .ButtonsVersion{

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <nav>
         <div className="navbarrow relative w-[100%]">
             <div className="logo-col">
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-    </div>
+    </>
   )
 }
 
