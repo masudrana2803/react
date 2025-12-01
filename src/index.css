@@ -14,7 +14,11 @@
     flex: 1;
     height: 80px;
     align-content: center;
-    padding: 20px;
+    padding: 0px 20px;
+}
+
+.navbarrow img{
+width: 50px;
 }
 
 
